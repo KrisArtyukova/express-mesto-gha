@@ -1,9 +1,9 @@
 const Card = require('../models/card');
-const { errorHandler } = require('./errorHandler');
+const { errorHandler } = require('../errors/errorHandler');
 const {
   NotFound, NotFoundError, InternalServerError,
-} = require('./errorCodes');
-const { defaultErrorMessages } = require('./errorHandler');
+} = require('../errors/errorCodes');
+const { defaultErrorMessages } = require('../errors/errorHandler');
 
 const getCards = (req, res) => {
   Card.find({})
