@@ -1,0 +1,11 @@
+.element__img {
+  max-width: 282px;
+  min-height: 282px;
+  border-radius: 10px 10px 0 0;
+  display: block;
+  object-fit: cover;
+  height: 282px;
+  width: 282px;
+  cursor: pointer;
+  background-color: black;
+}

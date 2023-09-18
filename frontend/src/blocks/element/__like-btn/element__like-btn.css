@@ -1,0 +1,18 @@
+.element__like-btn {
+  background-image: url(../../../images/heart.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  min-width: 22px;
+  min-height: 19px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.element__like-btn:hover {
+  opacity: 0.5;
+  transition: all ease-in-out 0.2s;
+}

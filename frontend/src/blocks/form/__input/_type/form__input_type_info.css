@@ -1,0 +1,8 @@
+.form__input_type_info {
+}
+
+@media screen and (max-width: 320px) {
+  .form__input_type_info {
+    margin-bottom: 45px;
+  }
+}

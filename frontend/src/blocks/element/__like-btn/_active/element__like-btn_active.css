@@ -1,0 +1,13 @@
+.element__like-btn_active {
+  background-image: url(../../../../images/heart_active.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  min-width: 22px;
+  min-height: 19px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

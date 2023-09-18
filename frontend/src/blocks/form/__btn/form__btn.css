@@ -1,0 +1,36 @@
+.form__btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  min-width: 358px;
+  min-height: 50px;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 37px;
+  margin-top: 18px;
+  margin-left: 36px;
+  border-radius: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 610px) {
+  .form__btn {
+    min-width: 238px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .form__btn {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+.form__btn:hover {
+  opacity: 0.8;
+  transition: all ease-in-out 0.2s;
+}
